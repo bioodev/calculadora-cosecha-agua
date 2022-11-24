@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .tabla-precipitaciones {
+      @apply text-gray-800 bg-teal-50 ;
+    }
+    .titulo-tabla{
+        @apply font-bold font-black text-xl bg-teal-900 text-gray-50 px-4;
+    }
+    .item-tabla {
+        @apply hover:drop-shadow-2xl ;
+    }
+  }
